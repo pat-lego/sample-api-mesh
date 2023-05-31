@@ -1,0 +1,22 @@
+{
+    "meshConfig": {
+        "sources": [
+          {
+            "name": "Commerce",
+            "handler": {
+              "graphql": {
+                "endpoint": "https://venia.magento.com/graphql/"
+              }
+            }
+          },
+          {
+            "name": "StarWars",
+            "handler": {
+              "graphql": {
+                "endpoint": "https://swapi-graphql.netlify.app/.netlify/functions/index"
+              }
+            }
+          }
+        ]
+      }
+    }
